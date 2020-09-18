@@ -1,11 +1,9 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
-*
-*main: principal variable, entry poin
+*main - Entry poin
 *
 *Retur: 1
-*
 */
 
 int main(void)
