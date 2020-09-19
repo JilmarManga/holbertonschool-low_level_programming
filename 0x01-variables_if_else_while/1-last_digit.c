@@ -1,31 +1,24 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Principal variable, Entry Point
- *
- * Function : This code prints the last digit of the number in variable n
- *
- * return : Always return 0
+ *main - Entry point
+ *Return: Always 0 (success)
  */
-
 int main(void)
 {
-	int n;
-	int lastdt;
+int n;
+int lastdg;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+lastdg = n % 10;
+if (lastdg > 5)
+printf("Last digit of %d is %d and is greater than 5\n", n, lastdg);
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	lastdt = n % 10;
+else if (lastdg == 0)
+printf("Last digit of %d is %d and is 0\n", n, lastdg);
 
-	if (lastdt > 5)
-	printf("Last digit of %d is %d and is greater than 5\n", n, lastdt);
-
-	else if (lastdt == 0)
-	printf("Last digit of %d is %d and is 0\n", n, lastdt);
-
-	else
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastdt);
-	return (0);
+else
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastdg);
+return (0);
 }
