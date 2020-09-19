@@ -1,16 +1,13 @@
 #include <stdio.h>
 
-/*
- * main : principal variable, emtry poitn
- *
- * Function : This code prints the alphabet in lowercase
- *
- * return : Always return 0
- */
+/**
+*main - Entry point
+*Return: Always 0 (success)
+*/
 
 int main(void)
-
 {
+
 char lowerCaseLetter;
 
 for (lowerCaseLetter = 'a'; lowerCaseLetter <= 'z'; lowerCaseLetter++)
