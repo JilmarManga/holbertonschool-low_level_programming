@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-* main : Principal function, entry point
-*
-* return : Always 0
-*/
+ * main : Principal function, entry point
+ *
+ * return : Always 0
+ */
 
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 	{
 	printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	if (n == 0)
 	{
 	printf("%d is zero\n", n);
 	}
