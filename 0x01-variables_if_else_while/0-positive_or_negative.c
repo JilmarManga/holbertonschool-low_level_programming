@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- * main : Entry point
- *
- * Function : Print if number saving in variable n is + or -
- *
- * return: Always 0
+ *main : Entry point
+ *Function : Print if number saving in variable n is + or -
+ *return: Always 0
  */
 
 int main(void)
