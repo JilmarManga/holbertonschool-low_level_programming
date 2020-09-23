@@ -15,8 +15,8 @@ void print_alphabet_x10(void)
 	{
 		for (lowercase = 97; lowercase <= 122; lowercase++)
 		{
-		_putchar(lowercase);
+			_putchar(lowercase);
 		}
 	_putchar('\n');
-}
+	}
 }
