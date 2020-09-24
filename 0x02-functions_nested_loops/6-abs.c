@@ -1,4 +1,4 @@
-#include "holberton.h"
+ #include "holberton.h"
 
 /**
  * _abs - computes the absolute value of an integer.
@@ -8,5 +8,5 @@
 
 int _abs(int num)
 {
-	return (num <= 0? num * -1 : 1);
+	return (num <= 0 ? num * -1 : 1);
 }
