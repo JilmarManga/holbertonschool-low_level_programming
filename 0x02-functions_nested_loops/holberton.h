@@ -7,3 +7,6 @@ int print_sign(int n);
 
 /* Return the absolute value of a integer */
 int _abs(int);
+
+/* Prints the last digit of a nunber*/
+int print_last_digit(int);
