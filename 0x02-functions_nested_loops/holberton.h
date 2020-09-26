@@ -13,3 +13,12 @@ int print_last_digit(int);
 
 /* function prints every minute of the day, starting from 00:00 to 23:59 */
 void jack_bauer(void);
+
+/* Functions prints 9 times multiply from 0 to 9*/
+void times_table(void);
+
+/* Function adds two integers*/
+int add(int, int);
+
+/* Function prints numbers from n to 98 */
+void print_to_98(int n);
